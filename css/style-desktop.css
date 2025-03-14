@@ -1,4 +1,8 @@
 /* Your styles here */
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: #393d41;
   font-size: 1.2rem;
@@ -119,14 +123,26 @@ main section div p {
   margin-bottom: 1rem;
 }
 
-.titolo-image {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+main section:last-of-type {
+  padding: 2rem;
 }
 
 .schede {
-  margin-bottom: 2rem;
+  display: inline-block;
+  width: 30%;
   border: 1px solid #dee1e3;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.titolo-image {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.schede p:last-of-type {
+  padding: 1rem;
 }
 
 footer {
@@ -151,6 +167,11 @@ footer a {
 
 footer p {
   color: #c8e7f0;
+  font-size: 0.8rem;
+}
+
+footer div {
+  width: 50%;
 }
 
 #location {
@@ -159,9 +180,9 @@ footer p {
 
 #lastP {
   margin-top: 2rem;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 hr {
-  width: 50%;
+  width: 70%;
 }

@@ -1,4 +1,8 @@
 /* Your styles here */
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: #393d41;
   font-size: 1.2rem;
