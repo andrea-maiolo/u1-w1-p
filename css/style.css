@@ -1,1 +1,118 @@
 /* Your styles here */
+body {
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans";
+  line-height: 1.65;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 2rem;
+}
+
+.headings {
+  color: #25a2c3;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background-color: #000;
+}
+
+header img {
+  margin: 1rem;
+  width: 30%;
+}
+
+#description {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  padding: 2rem;
+}
+
+#description h2,
+p {
+  margin-bottom: 1rem;
+}
+
+#description button {
+  background-color: #f04c2f;
+  color: #fff;
+  border: none;
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding: 1rem;
+}
+
+main section {
+  margin-top: 1rem;
+  padding: 2rem;
+}
+
+#round-image {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+#testimonianze {
+  background-color: #e22d03;
+  color: #fff;
+  padding: 2rem;
+}
+
+#testimonianze h2 {
+  margin-bottom: 2rem;
+}
+
+#testimonianze p {
+  margin: 0;
+}
+
+#testimonianze p:first-of-type {
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+#testimonianze p:last-child {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.schede {
+  margin-bottom: 2rem;
+  border: 1px solid #dee1e3;
+}
+
+footer {
+  padding: 2rem;
+  background-color: #25a2c3;
+}
+
+footer h2 {
+  color: #fff;
+}
+
+.fas {
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+footer p {
+  color: #c8e7f0;
+}
+
+hr {
+  width: 50%;
+}
