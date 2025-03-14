@@ -34,14 +34,14 @@ header {
 
 header img {
   margin: 2rem 4rem;
-  width: 20%;
+  width: 15%;
 }
 
 #description {
   background-image: url(../images/banner.jpg);
   background-size: cover;
   background-position: center;
-  padding: 22rem;
+  padding: 10rem;
 }
 
 #description h2 {
@@ -125,15 +125,21 @@ main section div p {
 
 main section:last-of-type {
   padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .schede {
   display: inline-block;
   width: 30%;
   border: 1px solid #dee1e3;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
   margin-left: 1rem;
+  vertical-align: top;
+  min-height: 457px;
+}
+
+.schede img {
+  height: 240px;
 }
 
 .titolo-image {
@@ -170,12 +176,14 @@ footer p {
   font-size: 0.8rem;
 }
 
-footer div {
-  width: 50%;
-}
-
 #location {
   margin-bottom: 2rem;
+}
+
+.contacts-info {
+  width: 210px;
+  text-align: left;
+  margin: auto;
 }
 
 #lastP {
@@ -184,5 +192,5 @@ footer div {
 }
 
 hr {
-  width: 70%;
+  width: 20%;
 }
